@@ -24,7 +24,7 @@ export class AboutmeresumeComponent implements OnInit {
   public projects: Project[] = [
     {
       companyName: "Imagine Communications",
-      role: "Technical Lead, Full Stack Developer",
+      role: "Full Stack Engineer",
       duration: "Oct 2018 - Present",
       location: "Denver, CO",
       scope: [
