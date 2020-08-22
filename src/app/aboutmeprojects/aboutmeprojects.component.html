@@ -9,10 +9,10 @@
         </div> -->
         <div class="companydetails">
           <div class="role">
-            {{ project.role }}
+            {{ project.role }} 
           </div>
           <div class="companyname">
-            {{ project.projectName }}
+            {{ project.projectName }} - <span [ngClass]="project.status">{{project.status}}</span>
           </div>         
           <div class="location">
             {{ project.location }}

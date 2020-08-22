@@ -61,19 +61,7 @@ export class AboutmeprojectsComponent implements OnInit {
         "Story point estimation tool to capture and track the teams points for each story built using Angular 9, JavaScript, HTML, CSS, " +
           "​ Python, AWS Lambda, AWS Elastic Bean, RESTful, FireBase Database, FireBase Login which will ease the scrum master to collect highest points.",
       ],
-    },
-    {
-      projectName: "My Portfolio",
-      role: "Full Stack",
-      duration: "Aug 2020",
-      location: "Denver, CO",
-      status: "In-Progress",
-      gitLocation:"",
-      url:"",
-      scope: [
-        "Angular web app which shows all all about me and on going projects built using Angular 9, JavaScript, HTML, CSS deployed in S3 and pointed to 3rd Party domain."
-      ],
-    },
+    }     
   ];
 
   constructor() {}
