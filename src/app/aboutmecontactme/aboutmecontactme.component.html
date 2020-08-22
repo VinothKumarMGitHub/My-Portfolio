@@ -1,0 +1,75 @@
+<div class="container">
+  <mat-grid-list cols="8" rowHeight="100%">
+    <mat-grid-tile colspan="3" rowspan="1">
+      <div class="topmost">
+        <h1><B>Contact Me</B></h1>
+
+        <br />
+        <br />
+        <div>
+          <div>
+            <a href="https://www.linkedin.com/in/vinoth-kumar-madurai/"
+              ><mat-icon class="link"
+                ><img src="assets/linkedin-square-color.svg"
+              /></mat-icon>
+            </a>
+            <a style="margin-left: 10px;" href="/"
+              ><mat-icon class="link">share</mat-icon></a
+            >
+          </div>
+          <br />
+          <div>
+            <a href="\">
+              <p><mat-icon> email </mat-icon> vinoth_kumarm@hotmail.com</p>
+            </a>
+          </div>
+          <div>
+            <a href="\">
+              <p><mat-icon> phone </mat-icon> +1 7203776135</p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </mat-grid-tile>
+    <mat-grid-tile colspan="3" rowspan="1">
+      <div class="topmost">
+        <div>
+          <h2>Looking forward to answering your email</h2>
+        </div>
+
+        <form  (ngSubmit)="onSubmit(contactForm)" #contactForm="ngForm" class="contactForm">
+          <mat-form-field class="contactFormField">
+            <mat-label>Name</mat-label>
+            <input
+              matInput
+              placeholder="Enter Name"
+              type="text"
+              required
+            />
+          </mat-form-field>
+          <mat-form-field class="contactFormField">
+            <mat-label>Email</mat-label>
+            <input matInput placeholder="Enter Email" required />
+          </mat-form-field>
+          <mat-form-field class="contactFormField">
+            <mat-label>Phone</mat-label>
+            <input matInput required placeholder="Enter Mobile Number" />
+          </mat-form-field>
+          <mat-form-field class="contactFormField" appearance="legacy">
+            <mat-label>Message</mat-label>
+            <textarea
+              matInput
+              required
+              rows="6"
+              placeholder="Type your message here..." 
+            ></textarea>
+            <mat-placeholder> "Type your message here..."</mat-placeholder>
+          </mat-form-field>
+          <button mat-raised-button>Submit</button>
+        </form>
+      </div>
+    </mat-grid-tile>
+
+    <mat-grid-tile colspan="1" rowspan="1"></mat-grid-tile>
+  </mat-grid-list>
+</div>

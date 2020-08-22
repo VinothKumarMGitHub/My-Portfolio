@@ -1,0 +1,38 @@
+<div class="container">
+  <h1><b>Projects</b></h1>
+  <hr />
+  <div>
+    <div class="experiance">
+      <div *ngFor="let project of projects; let i = index">
+        <!-- <div class="companyimage">
+          <img class="logo" src="assets/{{ project.icon }}" />
+        </div> -->
+        <div class="companydetails">
+          <div class="role">
+            {{ project.role }}
+          </div>
+          <div class="companyname">
+            {{ project.projectName }}
+          </div>         
+          <div class="location">
+            {{ project.location }}
+          </div>
+          <div class="duration">
+            {{ project.duration }}
+          </div>
+        </div>
+        <br />
+        <ul>
+          <div *ngFor="let exp of project.scope; let j = index">
+            <li>
+              {{ exp }}
+            </li>
+          </div>
+        </ul>
+        <hr />
+      </div>
+    </div>
+
+   
+  </div>
+</div>

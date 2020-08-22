@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+.maincontainer {
+  width: 100%;
+}
+
+.identity {
+  padding: 10px;
+  position: absolute;
+  left: 0;
+  padding-left: 20px;
+}
+
+.name{
+  font-weight: bold;
+  font-size:16px;
+}
+
+.role{
+  color: gray;
+}
+
+.location{
+  color: gray;
+}
+ 
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background-color: #f5f5f5;
+}

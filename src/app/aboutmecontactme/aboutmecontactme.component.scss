@@ -1,0 +1,45 @@
+.container{
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top:0 ;
+    position: absolute;
+    padding: 20px;
+   
+}
+.topmost{
+    top: 0;
+    position: absolute;
+    left: 0;
+}
+.contactForm{
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+}
+
+.contactFormField{
+    width: 100%;
+}
+
+mat-form-field{
+    border-radius: 0.05;
+} 
+
+mat-label{
+    color: rgb(2, 4, 129);;
+}
+
+//Placeholder
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: darkgray;
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: darkgray
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: rgb(182, 183, 245);;;
+  }

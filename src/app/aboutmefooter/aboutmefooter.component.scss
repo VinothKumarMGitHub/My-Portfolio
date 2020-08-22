@@ -1,0 +1,41 @@
+.maincontainer {
+  content: "";
+  display: table;
+  clear: both;
+  border-radius: 10px;
+  width: 70%;
+  background-color: rgb(189, 214, 238);
+  margin-left: 15%;
+}
+.centerscreen {
+  align-self: center;
+}
+
+.box {
+  float: left;
+  width: 33%;
+  border-radius: 10px;
+  margin: auto;
+}
+
+.containerfooter {
+  display: flex;
+  border-radius: 10px;
+}
+
+p {
+  margin-bottom: 0;
+  margin-block-end: 0;
+}
+
+mat-icon {
+  padding: 10px;
+}
+
+.link {
+  padding: 0px;
+}
+
+.combine {
+  width: 100%;
+}

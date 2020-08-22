@@ -1,0 +1,44 @@
+/* You can add global styles to this file, and also import other style files */
+
+html,
+body {
+  height: 100%;
+  min-width: 900px;
+  min-height: 800px;
+  margin: 0;
+  background: rgb(252, 254, 255);
+}
+
+.mat-body,
+.mat-body-1,
+.mat-typography {
+  font-family:'Times New Roman', Times, serif; 
+  font-size: 13px;
+  letter-spacing: 0.5px;
+}
+
+h1 {
+  color: saturate($color: #36568a, $amount: 0);
+}
+
+p {
+  color: saturate($color: #5d5f68, $amount: 0);
+}
+
+h2 {
+  color: saturate($color: #3c4258, $amount: 0);
+}
+
+a {
+  color: saturate($color: #7187df, $amount: 0);
+}
+
+mat-icon {
+  color: saturate($color: #0e76a8, $amount: 0);
+}
+
+.container{
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-bottom: 25px;
+}

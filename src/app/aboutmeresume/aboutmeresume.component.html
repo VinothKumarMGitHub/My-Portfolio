@@ -1,0 +1,52 @@
+<div class="container">
+  <h1><b>Resume</b></h1>
+  <hr />
+  <div>
+    <div class="experiance">
+      <div *ngFor="let project of projects; let i = index">
+        <div class="companyimage">
+          <img class="logo" src="assets/{{ project.icon }}" />
+        </div>
+        <div class="companydetails">
+          <div class="role">
+            {{ project.role }}
+          </div>
+          <div class="companyname">
+            <a href="{{project.website}}">{{ project.companyName }}</a> 
+          </div>
+          <div class="location">
+            {{ project.location }}
+          </div>
+          <div class="location">
+            {{ project.duration }}
+          </div>
+        </div>
+        <br />
+        <ul>
+          <div *ngFor="let exp of project.scope; let j = index">
+            <li>
+              {{ exp }}
+            </li>
+          </div>
+        </ul>
+        <hr />
+      </div>
+    </div>
+
+    <div class="skills">
+      <div>
+        <h2><b>Skills</b></h2>
+      </div>
+      <div>
+        <div *ngFor="let skill of skills;">
+          <p>
+            {{ skill.name }}
+            <mat-progress-bar color="accent" style="width: 100px;" mode="determinate" value="{{skill.percentage}}"></mat-progress-bar>
+          </p>
+         
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</div>

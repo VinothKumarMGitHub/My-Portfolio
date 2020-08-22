@@ -1,0 +1,46 @@
+
+
+.resume{
+    align-self: start;
+}
+
+.experiance{
+    height: 100%;
+    width: 100%;
+}
+
+.skills{
+    height: 100%;
+    width: 100%;
+    padding-left: 10px;
+}
+
+mat-grid-list{
+    background-color: green($color: #b1ab77);
+}
+
+.maincontainer{
+    width: 100%;
+    height: 100%;
+}
+
+.role{
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.companyname{
+    font-size: 13px;
+}
+
+.location{
+    font-size: 13px;
+    color: gray;
+}
+
+.duration{
+    font-size: 13px;
+    color: gray;
+}
+ 
+ 

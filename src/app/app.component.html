@@ -1,0 +1,36 @@
+<div style="padding-top: 20px;"></div>
+<div class="maincontainer">
+  <mat-grid-list cols="8" rowHeight="100px">
+    <mat-grid-tile colspan="1" rowspan="1"> </mat-grid-tile>
+
+    <mat-grid-tile colspan="2" rowspan="1">
+      <div class="identity">
+        <div class="name">Vinoth Kumar Madurai</div>
+        <div class="role">Full Stack Engineer</div>
+        <div class="location">
+          <mat-icon style="width: 28px; float: left;">location_on</mat-icon>
+          <div>Greater Denver Area</div>
+        </div>
+      </div>
+    </mat-grid-tile>
+
+    <mat-grid-tile colspan="4" rowspan="1">
+      <app-aboutmemenu (onMenuActionClick)="onMenuActionClick($event)">
+      </app-aboutmemenu>
+    </mat-grid-tile>
+
+    <mat-grid-tile colspan="1" rowspan="1"> </mat-grid-tile>
+
+    <!-- <mat-grid-tile colspan="6" rowspan="1">
+     
+    </mat-grid-tile> -->
+  </mat-grid-list>
+
+  <div >
+    <router-outlet></router-outlet>
+    <app-aboutmefooter class="footer"> </app-aboutmefooter>
+  
+  </div>
+
+  
+</div>
